@@ -7,4 +7,4 @@
 6. `db.movies.find({title_year:{$gte:2015},imdb_score:{$gte:8}})`
 7. `db.movies.find({gross:{$ne:''}},{gross:true,movie_title:true}).sort({gross:-1}).limit(10)`
 8. `db.movies.find({gross:{$ne:''}},{gross:true,movie_title:true}).sort({gross:-1}).skip(10).limit(10)`
-9. `db.movies.find({genres:{$all:['Comedy','Thriller','Sci-Fi']}})``
+9. `db.movies.find({genres:{$all:['Comedy','Thriller','Sci-Fi']}})`
